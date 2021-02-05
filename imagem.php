@@ -10,7 +10,7 @@
 
     $fontcolor = imagecolorallocate($imagem, 20, 20, 20);
 
-    imagettftext($imagem, 40, 0, 21, 35, $fontcolor, __DIR__.'Roboto-Black.tff', $n);
+    imagettftext($imagem, 40, 0, 21, 35, $fontcolor, __DIR__.'Roboto-Black.ttf', $n);
 
     imagejpeg($imagem, null, 100);
 
